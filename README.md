@@ -1,51 +1,41 @@
-# Portfolio — React + Vite
+# 📄 Resume Builder — MERN Project
 
-Live Demo → **https://resumemern-frontend.onrender.com/**
+Live Demo → **[https://resumemern-frontend.onrender.com/](https://resumemern-frontend.onrender.com/)**
 
-A clean, responsive personal portfolio inspired by modern product sites. Includes pages for Bio, Projects, Certificates, Internships, and Contact, plus a macOS-style floating navbar, particles background, and a detailed footer.
+A web-based Resume Builder app where users can create, edit, and preview resumes. Built with the **MERN stack** (MongoDB, Express.js, React, Node.js).
 
 ---
 
 ## ✨ Features
 
-- Multi-page routing (Bio, Projects, Certificates, Internships, Contact)
-- macOS-like rounded navbar (fixed ~100px from top)
-- Particles background
-- Responsive for mobile & tablets
-- Contact form (Email API ready)
-- Detailed footer with socials
-- Accessible, semantic HTML
+- User authentication (login/register)
+- Create & edit resume sections:
+  - Personal Information
+  - Education
+  - Experience
+  - Skills
+  - Projects
+- Auto-preview of resume while editing
+- Export / Download resume as PDF
+- Mobile & tablet responsive
+- Deployed with **Render**
 
 ---
 
 ## 🧰 Tech Stack
 
-- **React 18 + Vite**
-- **React Router DOM**
-- **Tailwind CSS** (or CSS modules if you prefer)
-- **tsparticles** (particles background)
-- **EmailJS / SendGrid / Resend** (choose one for emails)
+- **Frontend:** React, Tailwind CSS (or CSS Modules)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Atlas)
+- **Auth:** JWT Authentication
+- **Deployment:** Render (Frontend + Backend)
 
 ---
 
 ## 🚀 Quick Start
 
+### 1️⃣ Clone Repository
+
 ```bash
-# 1) Clone
 git clone <your-repo-url>
-cd <repo-folder>
-
-# 2) Install
-npm install
-
-# 3) Env (copy and edit)
-cp .env.example .env
-
-# 4) Dev
-npm run dev
-
-# 5) Build
-npm run build
-
-# 6) Preview production build
-npm run preview
+cd resume-mern
